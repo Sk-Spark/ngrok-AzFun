@@ -26,8 +26,6 @@ const httpTrigger: AzureFunction = async function (context: Context, req: HttpRe
     .then((response) => response.json())
     .then((data:any) => {
         console.log("data:",data);
-        // const public_url = data.tunnels[0].public_url;
-        // console.log('url:',public_url);
         let body='';
         if(data && data.tunnels && data.tunnels.length > 0 ){
             data.tunnels.forEach(t => {
