@@ -24,7 +24,7 @@ export const App = () => {
 
   const getTunnelLinks = () => {
     return tunnel.public_url.map((url) => {
-      return <li key={url}> 
+      return <div key={url}> 
         <a 
           className="App-link" 
           href={url}
@@ -32,7 +32,7 @@ export const App = () => {
         >
             {url}
         </a> 
-      </li>
+      </div>
     });
   }
 
