@@ -1,0 +1,3 @@
+GET https://api.ngrok.com/tunnels
+Authorization: Bearer 2FqoVlEun1pbSPKJ8DRji74M3qk_4s89tG15nPYWf93S8WuRH
+Ngrok-Version: 2
